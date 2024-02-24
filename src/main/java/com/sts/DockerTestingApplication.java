@@ -11,10 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerTestingApplication {
 	
 	
-	@GetMapping("/message")
-	public String message() {
-		return "this is just a messsage";
-	}
+	
 	
 	@PostMapping("/posting")
 	public String post() {
